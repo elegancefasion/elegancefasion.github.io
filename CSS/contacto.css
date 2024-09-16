@@ -1,0 +1,164 @@
+@import url(style.css);
+
+
+.formulario_input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+    background-color: #EAC3E1;
+    align-items: none;
+    padding: 60px;
+    width: 500px;
+    
+}
+
+.titulo_formulario  h4 {
+    color: var(--colormagenta);
+}
+
+.grupos_input input,
+textarea {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+
+.tienda_titulo h3 {
+    align-items: center;
+    color: var(--colorvioleta);
+    padding-bottom: 10px;
+    padding: 40px;
+}
+
+
+.texto_tienda  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--colormagenta);
+    gap: 5px;
+
+    & p {
+        align-items: center;
+        color: var(--colornegro);
+    }
+
+    
+}
+
+.tienda_foto  {
+    width: 100%;
+    height: auto;
+    
+}
+
+@media (max-width: 1023px) {
+    .formulario_input {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 25px;
+        background-color: #EAC3E1;
+        align-items: none;
+        padding: 60px;
+        width: 500px;
+        
+    }
+    
+    .titulo_formulario  h4 {
+        color: var(--colormagenta);
+    }
+    
+    .grupos_input input,
+    textarea {
+        width: 100%;
+        padding: 5px 10px;
+    }
+    
+    
+    .tienda_titulo h3 {
+        align-items: center;
+        color: var(--colorvioleta);
+        padding-bottom: 10px;
+        padding: 40px;
+    }
+    
+    
+    .texto_tienda  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: var(--colormagenta);
+        gap: 5px;
+    
+        & p {
+            align-items: center;
+            color: var(--colornegro);
+        }
+    
+        
+    }
+    
+    .tienda_foto  {
+        width: 100%;
+        height: auto;
+        
+    }
+
+}
+
+@media (max-width: 767px) {
+    .formulario_input {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 25px;
+        background-color: #EAC3E1;
+        align-items: none;
+        padding: 60px;
+        width: 500px;
+        
+    }
+    
+    .titulo_formulario  h4 {
+        color: var(--colormagenta);
+    }
+    
+    .grupos_input input,
+    textarea {
+        width: 100%;
+        padding: 5px 10px;
+    }
+    
+    
+    .tienda_titulo h3 {
+        align-items: center;
+        color: var(--colorvioleta);
+        padding-bottom: 10px;
+        padding: 40px;
+    }
+    
+    
+    .texto_tienda  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: var(--colormagenta);
+        gap: 5px;
+    
+        & p {
+            align-items: center;
+            color: var(--colornegro);
+        }
+    
+        
+    }
+    
+    .tienda_foto  {
+        width: 100%;
+        height: auto;
+        
+    }
+
+}
