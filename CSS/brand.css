@@ -132,6 +132,13 @@ button {
     grid-gap: 80px;
 }
 
+
+.grid_2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+}
+
 @media (max-width: 1023px) {
 
     /* Contenedor */
@@ -174,14 +181,22 @@ button {
     /* Modificar 2 columnas a 1 columna */
 
     .grid_4 {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .grid_3 {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    
+    .grid_2 {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    
+    }
+
+    
 }
 
 @media (max-width: 767px) {
@@ -226,6 +241,10 @@ button {
     /* Modificar 2 columnas a 1 columna */
 
     .grid_4 {
+        grid-template-columns: 1fr;
+    }
+
+    .grid_2 {
         display: flex;
         flex-direction: column;
         gap: 50px;
