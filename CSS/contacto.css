@@ -93,7 +93,7 @@ textarea {
         gap: 5px;
     
         & p {
-            align-items: center;
+            align-items: none;
             color: var(--colornegro);
         }
     
